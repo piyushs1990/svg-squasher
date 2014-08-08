@@ -37,5 +37,5 @@ The inspiration for this game comes from a game called [Fly Swatter](http://www.
 ## Submission
 - Create a fork of this repo
 - Commit and push your code to your forked repo as many times as you want
-- Make sure that the app can be run from the command line using 'node <app name>'. 
+- Make sure that the app can be run from the command line using 'node app.js'. 
 - Submit a pull request to the master branch when you're done. Congrats!
