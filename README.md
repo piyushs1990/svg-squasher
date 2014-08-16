@@ -1,4 +1,4 @@
-SVG Bug Squasher
+SVG Squasher
 ============
 
 A fun bug squashing game built with SVG
