@@ -1,0 +1,70 @@
+﻿body{
+    /*width: 840px;*/
+    /*text-align: center;*/
+}
+#content {
+    width: 940px;
+    margin: 0 auto;
+}
+#svg {
+    width: 940px;
+    height: 500px;
+    background: lightgray;
+    margin: 0 auto;
+}
+
+#level {
+    text-align: center;
+    margin-left: -20px;
+}
+
+#score {
+    text-align: center;
+}
+
+#time {
+    text-align: center;
+    /*margin-left: -10px;*/
+}
+
+#display {
+    /*background: lightcoral;*/
+    background: #5786c1;
+    color: whitesmoke;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: 1.5em;
+} 
+
+#instructions {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    background: lightgray;
+    /*padding-top: 150px;*/
+    padding-top: 20px;
+    padding-left: 200px;
+}
+
+#instructions h1 {
+    font-weight: bold;
+    font-size: 26px;
+}
+
+#instructions button {
+    /*background: orange;
+    border-color: #ff6600;*/
+  border: 0;
+  background: #5786c1;
+  color: white;
+  padding: 8px 14px;
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: none;
+  display: inline-block; 
+  position: relative;
+  box-shadow: 1px 0px #3a587f, 0px 1px #4171ae,
+              2px 1px #3a587f, 1px 2px #4171ae,
+              3px 2px #3a587f, 2px 3px #4171ae,
+              4px 3px #3a587f, 3px 4px #4171ae,
+              5px 4px #3a587f, 4px 5px #4171ae,
+              6px 5px #3a587f, 5px 6px #4171ae;
+
+}

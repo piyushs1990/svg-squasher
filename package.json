@@ -1,0 +1,15 @@
+{
+  "name": "SVGBugSquasher",
+  "version": "0.1.0",
+  "description": "A Bug Squashing game.",
+  "main": "server.js",
+  "author": {
+    "name": "Piyush Srivastava",
+    "email": ""
+  },
+  "dependencies": {
+    "express": "^4.8.5",
+    "underscore": "^1.6.0",
+    "vash": "^0.7.12-1"
+  }
+}

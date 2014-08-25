@@ -1,0 +1,42 @@
+﻿ <div id="game-over">
+    <h1 data-bind="text: gameOverHeading"></h1>
+</div>
+<!-- ko if: highScoreCrossed -->
+<div id="game-highscore">
+    <h1 data-bind="text: highScoreHeading"></h1>
+    <div class="control-group">
+        <!--<label class="control-label" for="firstName">First Name</label>-->
+        <div class="controls">
+            <input id="playerName" class="input-large" type="text" placeholder="Enter your name" data-bind="value: playerName, valueUpdate: 'blur'">
+            <button class="btn btn-primary" type="submit" data-bind="click: onHighScoreSubmitClick, text: highScoreButtonText"></button>
+        </div>
+    </div>
+</div>
+<!-- /ko -->
+<div id="game-highscore-display" style="display: none">
+    <h3>High Scores</h3>
+    <table class="table">
+    <thead>
+        <tr>
+            <th width="10%">Rank</th>
+            <th width="60%">Name</th>
+            <th width="30%">Score</th>
+        </tr>
+    </thead>
+    <tbody data-bind="foreach: highScores">
+        <tr>
+            <td data-bind="text: ($index()+1)"></td>
+            <td data-bind="text: name"></td>
+            <td data-bind="text: score"></td>
+        </tr>
+    </tbody>
+</table>
+</div>
+<div id="game-restart">
+    <div class="control-group">
+        <div class="controls">
+            <button class="btn btn-primary" type="submit" data-bind="click: onDoneClick, text: gameOverBtnText"></button>
+        </div>
+    </div>
+</div>
+
